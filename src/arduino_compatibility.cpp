@@ -1,9 +1,8 @@
-#include <config.h>
-#include <arduino_fcts.h>
+#include <arduino_compatibility.h>
 #include <chrono>
 #include <stdint.h>
 
-#ifdef ADD_ARDUINO_FCTS
+#ifdef ARDUINO_COMPATIBILITY
 
 uint32_t millis() {
 

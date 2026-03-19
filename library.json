@@ -1,0 +1,16 @@
+{
+  "name": "beaf",
+  "version": "1.0.0",
+  "description": "bidoch embedded app framework",
+  "keywords": ["embedded", "utility"],
+  "authors": [
+    {
+      "name": "bidoch78"
+    }
+  ],
+  "license": "MIT",
+  "build": {
+    "includeDir": "include",
+    "srcDir": "src"
+  }
+}
